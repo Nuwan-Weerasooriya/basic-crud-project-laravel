@@ -9,6 +9,6 @@ class PostController extends Controller
 {
     public function showPostCreateForm()
     {
-        return 'I am basic html form';
+        return view('post.postForm');
     }
 }
