@@ -9,9 +9,11 @@ use Illuminate\Http\Request;
 
 class PostController extends Controller
 {
-    public function showHomePage()
+    public function showHomePage(): View
     {
-        return view('post.home');
+        $alreadyExistingPost = Post::all();
+
+        return view('post.home', compact('alreadyExistingPost'));   //$alreadyExistingPost denna oni $ ayin karala
     }
     public function showPostCreateForm(): View
     {
