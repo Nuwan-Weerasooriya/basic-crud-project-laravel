@@ -41,7 +41,7 @@
                     <textarea id="post_content" name="post_content" rows="8" class="text-area" placeholder="Write post..."></textarea>
                 </div>
             </div>
-            <button type="submit" class="dark-btn">Add Product</button>
+            <button type="submit" class="dark-btn">Create Post</button>
         </form>
     </div>
 </section>
